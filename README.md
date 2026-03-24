@@ -36,7 +36,7 @@ HSRIS/
 1. Clone this repository locally or to your cloud instance.
 2. Ensure you have Python 3.10+ installed. Install the dependencies:
    ```bash
-   pip install torch numpy pandas gradio plotly
+   pip install -r requirements.txt
    ```
 3. Create a `data/` directory in the root of the project.
 4. Download the `customer_support_tickets.csv` Kaggle Dataset and the `glove.6B.300d.txt` language model parameters, and place them inside the `data/` directory.
